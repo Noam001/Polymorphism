@@ -15,6 +15,24 @@ namespace Polymorphism
             this.x = x;
             this.y = y;
         }
+        public int GetX()
+        {
+            return this.x;
+        }
+        public void SetX(int x)
+        {
+            this.x = x;
+        }
+
+        public int GetY()
+        {
+            return this.y;
+        }
+        public void SetY(int y)
+        {
+            this.y = y;
+        }
+
 
     }
 }

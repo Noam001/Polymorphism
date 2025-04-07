@@ -11,6 +11,9 @@ namespace Polymorphism
 
         static void Main(string[] args)
         {
+            Point p = new Point(10, 10);
+            BasicShape shape = new Rectangle(p,14,2,13,10);
+            shape.PrintDetails();
         }
     }
 }
