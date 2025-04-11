@@ -8,7 +8,7 @@ namespace Polymorphism
 {
     internal class Circle: BasicShape
     {
-        int radius;
+        protected int radius;
         public Circle(Point center, int borderColor, int fillColor, int radius):
             base(borderColor, center, fillColor)
         {
