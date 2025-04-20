@@ -42,7 +42,7 @@ namespace Polymorphism
             this.fillColor = fillColor;
         }
 
-        public  void PrintDetails()
+        public void PrintDetails()
         {
             Console.WriteLine(this.ToString());
         }
